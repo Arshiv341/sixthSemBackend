@@ -1,0 +1,1 @@
+this data is writeen with the help of'writeFileSync.'This is Appended data through appendFileSync
