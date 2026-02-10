@@ -15,12 +15,6 @@ const addStudent = async (path, newStudent) => {
     students.push(newStudent);
     await writeFile(path, students);
 };
-
-// read
 await fileData("./studdents.json");
-
-// write
 await addStudent("./studdents.json", { id: 4, name: "D" });
-
-// read again
 await fileData("./studdents.json");
