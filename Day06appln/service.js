@@ -27,7 +27,6 @@ export const registerUser = async (name, mail, password) => {
 };
 
 // LOGIN
-// LOGIN
 export const loginUser = async (mail, password) => {
     const users = await readFile(FILE);
 
